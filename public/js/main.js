@@ -47,9 +47,9 @@ $(function(){
     );
   }
   if ($(window).width() <= '768'){ 
-    $('.nav__item').click(        
+    $('.nav__item>a').click(        
       function () {
-          $('ul', this).slideToggle(300);
+          $('ul', '.nav__item').slideToggle(300);
       }
     );
   }
