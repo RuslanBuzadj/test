@@ -36,10 +36,6 @@ To get started:
 
 4. Open `public/index.html` in your editor and start experimenting!
 
-## Play with it on CodeSandbox
-
-A CodeSandbox version of this playground [is one click away](https://codesandbox.io/s/github/tailwindcss/playground/tree/master)!
-
 ## Building for production
 
 Even though this isn't necessarily a starter kit for a proper project, we've included an example of setting up [cssnano](https://cssnano.co/) to optimize your CSS for production.
@@ -54,4 +50,4 @@ npm run production
 yarn production
 ```
 
-After that's done, check out `./public/build/tailwind.css` to see the optimized output.
+After that's done, check out `./public/css/tailwind.css` to see the optimized output.
