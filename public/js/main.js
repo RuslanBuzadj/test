@@ -3,10 +3,11 @@ $(function(){
       $('.header__burger, .header__nav').toggleClass('active'); 
       $('body').toggleClass('lock');       
   });
-  $('.header__nav').click(function(){
+ $('.header__nav').click(function(e){
+    if(e.target.classList.contains('nav')){
     $('.header__burger, .header__nav').removeClass('active');
-    $('body').removeClass('lock');
-  })
+    $('body').removeClass('lock');}
+ })
 
   $(".go-to").on("click", function(e){
 		var anchor = $(this);
