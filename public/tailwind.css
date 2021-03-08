@@ -417,6 +417,7 @@
 		@apply flex items-center justify-center p-0;
 	}
 	.fancybox-content {
+		max-width:500px;
 		@apply p-6 w-full;
 	}
 	.fancybox-close-small {
